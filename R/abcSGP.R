@@ -146,7 +146,7 @@ function(sgp_object,
 	}
 
 
-	### Print finish and return SGP object
+	### Print finish and return SGP object FINAL STEP
 
         message(paste("Finished abcSGP", date(), "in", timetaken(started.at), "\n"))
 	return(sgp_object)
